@@ -1,0 +1,49 @@
+.howitwork .paragraph
+{
+    max-width: 70%;
+    margin: auto;
+}
+.cards
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+
+}
+
+.cards .cardfor
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardfor img
+{
+    height: 20%;
+    width: 23%;
+}
+.contenthow 
+{
+    margin-top: 50px;
+}
+
+.contenthow h4
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #515151;
+}
+
+.contenthow p
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    color: #515151;
+}

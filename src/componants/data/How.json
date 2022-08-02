@@ -1,0 +1,26 @@
+[
+  {
+    "image": "/assets/how/card1.png",
+    "step": "step1",
+    "title": "Download",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero"
+  },
+  {
+    "image": "/assets/how/card2.png",
+    "step": "step2",
+    "title": "Connect Wallet",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero"
+  },
+  {
+    "image": "/assets/how/card3.png",
+    "step": "step3",
+    "title": "Start Trading",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero"
+  },
+  {
+    "image": "/assets/how/card4.png",
+    "step": "step4",
+    "title": "Earn Money",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero"
+  }
+]
