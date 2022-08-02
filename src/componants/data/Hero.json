@@ -1,0 +1,27 @@
+[
+  {
+    "backround": "/assets/hero/back1.png",
+    "image": "/assets/hero/avatar1.png",
+    "class": "nocard"
+  },
+  {
+    "backround": "/assets/hero/back2.png",
+    "image": "/assets/hero/avatar2.png",
+    "class": "card"
+  },
+  {
+    "backround": "/assets/hero/back3.png",
+    "image": "/assets/hero/avatar3.png",
+    "class": "nocard"
+  },
+  {
+    "backround": "/assets/hero/back4.png",
+    "image": "/assets/hero/avatar4.png",
+    "class": "nocard"
+  },
+  {
+    "backround": "/assets/hero/back5.png",
+    "image": "/assets/hero/avatar5.png",
+    "class": "nocard"
+  }
+]

@@ -1,0 +1,94 @@
+.content
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: #08001A;
+}
+.navbar
+{
+    padding: 1%;
+    padding-left: 10%;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-size: 10px;
+    line-height: 30px;
+    color: #8F60FF;
+    text-align: left;
+}
+.text
+{
+    
+    font-family: 'Red Rose', cursive;
+    font-size: 52px;
+    text-align: center;
+    color: #F7F7F7;
+    padding-top: 4%;
+    min-width: 80%;
+    margin: auto;
+}
+.images
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    align-items: center;
+}
+
+.card
+{
+    padding: 10px;
+    background-color: #F7F7F7;
+    border-radius: 3%;
+    text-align: left;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+.card .title
+{
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 80%;
+color: #2F2D2D;
+
+}
+.card .text
+{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    color: #2F2D2D;
+    text-align: left;
+}
+
+.display
+{
+    position: relative;
+    
+}
+.display img{
+    height: 226px;
+    width: 212px;
+}
+.avatar
+{
+    position: absolute;
+    
+    top: 0;
+    height: 90px;
+    width: 90px;
+}
+.nocard .display img
+{
+    height: 206px;
+    width: 202px;
+}
+.nocard .title
+{
+    display: none;
+}
+.nocard .text
+{
+    display: none;
+}
