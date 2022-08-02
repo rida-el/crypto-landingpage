@@ -1,34 +1,34 @@
 [
     {
-        "logo" : "/assets/btc/back1.png",
-        "title" : "",
-        "tag": "",
-        "priceg": "",
-        "pricep":"",
-        "class":""
+        "logo" : "/assets/btc/btc1.png",
+        "title" : "BTC/USDT",
+        "tag": "+0.79%",
+        "priceg": "55350.21",
+        "pricep":"55350.21",
+        "class":"nofour"
     },
     {
-        "logo" : "/assets/btc/back1.png",
-        "title" : "",
-        "tag": "",
-        "priceg": "",
-        "pricep":"",
-        "class":""
+        "logo" : "/assets/btc/btc2.png",
+        "title" : "BTC/USDT",
+        "tag": "+0.79%",
+        "priceg": "55350.21",
+        "pricep":"55350.21",
+        "class":"four"
     },
     {
-        "logo" : "/assets/btc/back1.png",
-        "title" : "",
-        "tag": "",
-        "priceg": "",
-        "pricep":"",
-        "class":""
+        "logo" : "/assets/btc/btc3.png",
+        "title" : "BTC/USDT",
+        "tag": "+0.79%",
+        "priceg": "55350.21",
+        "pricep":"55350.21",
+        "class":"nofour"
     },
     {
-        "logo" : "/assets/btc/back1.png",
-        "title" : "",
-        "tag": "",
-        "priceg": "",
-        "pricep":"",
-        "class":""
+        "logo" : "/assets/btc/btc4.png",
+        "title" : "BTC/USDT",
+        "tag": "+0.79%",
+        "priceg": "55350.21",
+        "pricep":"55350.21",
+        "class":"nofour"
     }
 ]

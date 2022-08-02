@@ -3,28 +3,97 @@
 {
     display: flex;
     justify-content: center;
-    padding: 10%;
+    padding: 6%;
+    padding-top: 10%;
 }
 .firstcard{
-    width: 1129px;
-    height: 231px;
+    width: 105vw;
+    height: 45vh;
     background: #F8F5FF;
     border-radius: 12px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    justify-self: center;
+    /* justify-self: center; */
     align-items: center;
+    padding: 2%;
 }
 
 .four
 {
-    width: 206px;
-    height: 203px;
+    width: 15vw;
+    height: 35vh;
     background: #FFFFFF;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
     border-radius: 18px;
-    padding-top: 20px;
-    padding-left: 10px;
+    padding: 30px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.nofour
+{
+    width: 15vw;
+    height: 35vh;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.nofour img
+{
+    width: 35px;
+    height: 38px;
+}
+.four img
+{
+    width: 35px;
+    height: 38px;
+}
+
+.tag
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.tag .t1
+{
+    font-size: 20px;
+    margin: 0;
+}
+.tag .num
+{
+    width: 56px;
+    height: 26px;
+    border-radius: 8px;
+    background-color: #6DBC89;
+    padding: 5px;
+}
+
+.four h1
+{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.four h3
+{
+    margin: 0;
+    color: #9d9f9e;
+}
+.nofour h1
+{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.nofour h3
+{
+    margin: 0;
+    color: #9d9f9e;
 }

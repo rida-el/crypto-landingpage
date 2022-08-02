@@ -23,7 +23,7 @@ function Hero() {
               </div>
 
               <h1 className="title">Create your Account</h1>
-              <p className="text">
+              <p className="para">
                 Easy Set up of your account with <br /> marketplace
                 CryptoPayments
               </p>
