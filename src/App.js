@@ -3,6 +3,8 @@ import "./App.css";
 import Hero from "./componants/Hero/Hero";
 import Btc from "./componants/Btc/Btc";
 import How from "./componants/How/How";
+import Trade from "./componants/Trade/Trade";
+import Contactus from "./componants/Contactus/Contactus";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Hero></Hero>
       <Btc></Btc>
       <How></How>
+      <Trade></Trade>
+      <Contactus />
     </div>
   );
 }

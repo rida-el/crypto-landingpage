@@ -1,0 +1,49 @@
+.trade
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+    align-items: center;
+}
+.tradecontent
+{
+    text-align: left;
+}
+.trade .tradeimg
+{
+    height: 30%;
+    width: 30%;
+}
+.trade .tradeimg img
+{
+    height: 55%;
+    width: 85%;
+}
+.download
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+.download img
+{
+    height: 12%;
+    width: 12%;
+}
+.downloadt
+{
+    margin-left: 25px;
+}
+.downloadt p
+{
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    color: #515151;
+}

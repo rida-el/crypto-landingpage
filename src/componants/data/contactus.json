@@ -1,0 +1,21 @@
+[
+  {
+    "logo": "/assets/contactus/icon1.png",
+    "title": "Buy and Sell Crypto",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero",
+    "button": "Buy Crypto"
+  },
+  {
+    "logo": "/assets/contactus/icon2.png",
+    "title": "Trade Asstes",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero",
+    "button": "Trade Now"
+  },
+  {
+    "logo": "/assets/contactus/icon3.png",
+    "title": "Learn Crypto",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero",
+    "button": "Learn Now"
+  }
+
+]
