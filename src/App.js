@@ -5,6 +5,7 @@ import Btc from "./componants/Btc/Btc";
 import How from "./componants/How/How";
 import Trade from "./componants/Trade/Trade";
 import Contactus from "./componants/Contactus/Contactus";
+import Footer from "./componants/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <How></How>
       <Trade></Trade>
       <Contactus />
+      <Footer></Footer>
     </div>
   );
 }
