@@ -4,8 +4,12 @@ import "./Contactus.css";
 function Contactus() {
   return (
     <div className="contactus-section">
-      <h1 className="contact-title"></h1>
-      <p className="contact-paragraph"></p>
+      <h1 className="contact-title" style={{ maxWidth: "26%", margin: "auto" }}>
+        Become a crypto trader in seconds
+      </h1>
+      <p className="contact-paragraph">
+        Anytime, Anywhere. Trade crypto on your terms
+      </p>
       <div className="contact-cards">
         {data.map((item, i) => (
           <div className="contact-card">
@@ -17,6 +21,11 @@ function Contactus() {
             </a>
           </div>
         ))}
+      </div>
+      <div className="bottom-button">
+        <a className="button-contactus" href="">
+          Contact Us
+        </a>
       </div>
     </div>
   );
