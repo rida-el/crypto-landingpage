@@ -1,16 +1,19 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import data from "../data/contactus.json";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./Contactus.css";
 function Contactus() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div className="contactus-section">
-      <h1 className="contact-title">
-        Become a crypto trader in seconds
-      </h1>
+      <h1 className="contact-title">Become a crypto trader in seconds</h1>
       <p className="contact-paragraph">
         Anytime, Anywhere. Trade crypto on your terms
       </p>
-      <div className="contact-cards">
+      <div data-aos="fade-up" className="contact-cards">
         {data.map((item, i) => (
           <div className="contact-card">
             <img className="card-icon" src={item.logo} />

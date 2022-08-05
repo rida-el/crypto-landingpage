@@ -1,8 +1,14 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./How.css";
+
 import data from "../data/How.json";
 
 function How() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div className="howitwork">
       <h1 className="title">How it Work</h1>
@@ -12,9 +18,9 @@ function How() {
         nihil adipisci ab impedit maiores quia aliquid veniam enim sit
         consequatur!
       </p>
-      <div className="cards">
+      <div   className="cards">
         {data.map((item, i) => (
-          <div className="cardfor">
+          <div data-aos="fade-up" className="cardfor">
             <img src={item.image} />
             <div className="contenthow">
               <h4>{item.step} </h4>

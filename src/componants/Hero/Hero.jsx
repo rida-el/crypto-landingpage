@@ -1,15 +1,20 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import images from "../img/images";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import hero from "../data/Hero.json";
 import "./Hero.css";
 function Hero() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div>
       <div className="content">
         <div className="navbar">
           <h1>CryptoPayment</h1>
         </div>
-        <div className="text">
+        <div data-aos="fade-down" className="text">
           Crypto payments is a crypto exchange for everyone
         </div>
         <div className="images">
