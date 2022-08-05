@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     padding: 6%;
-    padding-top: 10%;
+    margin-top: 5%;
 }
 .firstcard{
     width: 105vw;
@@ -16,6 +16,7 @@
     /* justify-self: center; */
     align-items: center;
     padding: 2%;
+    
 }
 
 .four
@@ -64,7 +65,7 @@
 .tag .t1
 {
     font-size: 20px;
-    margin: 0;
+    margin-right: 5px;
 }
 .tag .num
 {
@@ -96,4 +97,37 @@
 {
     margin: 0;
     color: #9d9f9e;
+}
+
+@media screen and (max-width: 1000px) {
+    .firstcard{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .section2{
+        margin-top: 20%;
+    }
+    .firstcard{
+        
+        background: #ffffff;
+        border-radius: 12px;
+        display: flex;
+        /* justify-content: space-between; */
+        /* justify-self: center; */
+        align-items: center;
+        /* padding: 6%; */
+        
+    }
+    .nofour
+    {
+        width: 65vw;
+        height: 35vh;
+    }
+    .four
+    {
+        width: 75vw;
+        height: 45vh;
+        background: #F8F5FF;
+    }
+    
 }

@@ -21,7 +21,6 @@ function Hero() {
                   <img src={item.image} />
                 </div>
               </div>
-
               <h1 className="title">Create your Account</h1>
               <p className="para">
                 Easy Set up of your account with <br /> marketplace

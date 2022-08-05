@@ -1,7 +1,10 @@
+
+
 .howitwork .paragraph
 {
     max-width: 70%;
     margin: auto;
+    font-family: 'Poppins', sans-serif;
 }
 .cards
 {
@@ -29,10 +32,11 @@
 
 .contenthow h4
 {
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: #515151;
+    color: #727272;
 }
 
 .contenthow p
@@ -43,7 +47,35 @@
     font-size: 16px;
     line-height: 150%;
     text-align: center;
-    max-width: 60%;
+    max-width: 80%;
     margin: auto;
     color: #515151;
+}
+
+.title
+{
+    color: #160146;
+}
+
+@media screen and (max-width: 1000px) {
+    .howitwork
+    {
+        margin-top: 800px;
+        background-color: #f8f5ff;
+        padding-top: 20px;
+    }
+    .howitwork .paragraph 
+    {
+        max-width: 100%;
+    }
+    .contenthow
+    {
+        margin: 0;
+    }
+    .cards
+    {
+        flex-direction: column;
+        gap: 90px;
+        align-items: center;
+    }
 }
