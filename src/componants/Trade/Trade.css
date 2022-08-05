@@ -47,3 +47,41 @@
     /* identical to box height, or 24px */
     color: #515151;
 }
+.trade-mobile
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.trade-mobile img
+{
+    width: 80%;
+    /* height: 40%; */
+}
+.trade-mobile .download img
+{
+    height: 12%;
+    width: 12%;
+}
+@media screen and (max-width : 1000px) {
+    .trade{
+        display: none;
+    }
+    .download
+    {
+        justify-content: center;
+    }
+    .downloadt {
+        margin-left: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+}
+@media screen and (min-width : 1000px) {
+    .trade-mobile{
+        display: none;
+    }
+    
+}

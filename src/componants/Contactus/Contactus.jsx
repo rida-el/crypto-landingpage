@@ -4,7 +4,7 @@ import "./Contactus.css";
 function Contactus() {
   return (
     <div className="contactus-section">
-      <h1 className="contact-title" style={{ maxWidth: "26%", margin: "auto" }}>
+      <h1 className="contact-title">
         Become a crypto trader in seconds
       </h1>
       <p className="contact-paragraph">

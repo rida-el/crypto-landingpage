@@ -13,10 +13,10 @@ function App() {
       <Hero></Hero>
       <Btc></Btc>
       <How></How>
-      {/* 
       <Trade></Trade>
       <Contactus />
-      <Footer></Footer> */}
+
+      <Footer></Footer>
     </div>
   );
 }

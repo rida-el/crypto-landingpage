@@ -62,3 +62,14 @@
     color: #FFFFFF;
     background-color: #8F60FF;
 }
+
+@media screen and (max-width : 1000px) {
+    .footer .footer-left
+    {
+        padding: 29px 11px 11px 11px;
+    }
+    .footer .footer-right
+    {
+        padding: 47px;
+    }    
+}

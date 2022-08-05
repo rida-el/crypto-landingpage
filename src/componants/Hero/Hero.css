@@ -125,4 +125,5 @@
 
 .nocard .display img:hover {
     transform: scale(1.4);
+    transition: 1s;
   }
